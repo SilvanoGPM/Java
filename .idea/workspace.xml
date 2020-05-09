@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad5c0ab-4c9d-4dd9-af30-db28ef8d03f1" name="Default Changelist" comment="" />
+    <list default="true" id="8ad5c0ab-4c9d-4dd9-af30-db28ef8d03f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/devdojo-javacore" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GroovyConsoleState">
     <option name="list">
@@ -34,6 +37,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1UTLI9aaxdkeVcyQdSMceh4Cnri" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -52,7 +56,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -133,53 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="JavaCore" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="JavaCore" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Cliente1" />
       <item itemvalue="Application.Cliente2" />
@@ -222,6 +179,11 @@
       <updated>1575375555254</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/devdojo-javacore" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
     <state x="274" y="21" key="#Auto_Import" timestamp="1584144902256">
@@ -332,15 +294,15 @@
       <screen x="-1024" y="36" width="1024" height="768" />
     </state>
     <state x="-840" y="148" key="IDE.errors.dialog/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1584837281607" />
-    <state x="113" y="0" key="SettingsEditor" timestamp="1588950472908">
+    <state x="113" y="0" key="SettingsEditor" timestamp="1588958290072">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state x="-998" y="36" key="SettingsEditor/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1586960729692" />
     <state x="272" y="0" key="SettingsEditor/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1585022289603" />
     <state x="238" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1583141420543" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581132027871" />
-    <state x="113" y="0" key="SettingsEditor/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588950472908" />
-    <state x="434" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1588956414462">
+    <state x="113" y="0" key="SettingsEditor/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588958290072" />
+    <state x="434" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1588981076185">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state x="-741" y="232" key="com.intellij.ide.util.TipDialog/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588440049938" />
@@ -348,7 +310,7 @@
     <state x="220" y="95" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1588278578253" />
     <state x="221" y="95" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581360980669" />
     <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588956414462" />
-    <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768@80.0.1280.768" timestamp="1588632350239" />
+    <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768@80.0.1280.768" timestamp="1588981076185" />
     <state x="-932" y="128" width="840" height="584" key="dock-window-1" timestamp="1587876880752">
       <screen x="-1024" y="36" width="1024" height="768" />
     </state>
