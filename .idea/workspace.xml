@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad5c0ab-4c9d-4dd9-af30-db28ef8d03f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/classes/Entregador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/classes/ListaMembros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/test/DeadlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/test/EntregadorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Texpressoesregulares/TokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/Texpressoesregulares/TokenTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,35 +75,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MiniPlayer">
-    <configuration name="Cliente1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="foradocurso.projetos.chat.Cliente1" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="foradocurso.projetos.chat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cliente2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="foradocurso.projetos.chat.Cliente2" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="foradocurso.projetos.chat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.ZZCthreads.test.ContaTest" />
+  <component name="RunManager" selected="Application.EntregadorTest">
+    <configuration name="DeadlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.ZZCthreads.test.DeadlockTest" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiniPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="foradocurso.projetos.beatbox.MiniPlayer" />
+    <configuration name="EntregadorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.ZZCthreads.test.EntregadorTest" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="foradocurso.projetos.beatbox.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.ZZCthreads.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +102,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="foradocurso.projetos.chat.Servidor" />
+    <configuration name="ScannerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.Texpressoesregulares.ScannerTest" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="foradocurso.projetos.chat.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.Texpressoesregulares.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringPerformaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.Rstrings.test.StringPerformaceTest" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.sky.javacore.Rstrings.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.Texpressoesregulares.TokenTest" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.sky.javacore.Texpressoesregulares.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Cliente1" />
-      <item itemvalue="Application.Cliente2" />
-      <item itemvalue="Application.ContaTest" />
-      <item itemvalue="Application.MiniPlayer" />
-      <item itemvalue="Application.Servidor" />
+      <item itemvalue="Application.StringPerformaceTest" />
+      <item itemvalue="Application.ScannerTest" />
+      <item itemvalue="Application.TokenTest" />
+      <item itemvalue="Application.DeadlockTest" />
+      <item itemvalue="Application.EntregadorTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MiniPlayer" />
-        <item itemvalue="Application.Cliente1" />
-        <item itemvalue="Application.Servidor" />
-        <item itemvalue="Application.Cliente2" />
-        <item itemvalue="Application.ContaTest" />
+        <item itemvalue="Application.EntregadorTest" />
+        <item itemvalue="Application.DeadlockTest" />
+        <item itemvalue="Application.TokenTest" />
+        <item itemvalue="Application.ScannerTest" />
+        <item itemvalue="Application.StringPerformaceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -215,12 +219,13 @@
     </state>
     <state x="435" y="232" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1581449604573" />
     <state x="437" y="232" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581131730770" />
-    <state x="538" y="50" width="461" height="330" key="#com.intellij.ide.util.MemberChooser" timestamp="1588908112214">
-      <screen x="80" y="0" width="1280" height="768" />
+    <state x="-658" y="86" width="461" height="330" key="#com.intellij.ide.util.MemberChooser" timestamp="1589104978618">
+      <screen x="-1024" y="36" width="1024" height="768" />
     </state>
     <state x="-658" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588280009969" />
     <state x="486" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1584144699165" />
     <state x="486" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1583138412496" />
+    <state x="-658" y="86" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589104978618" />
     <state x="538" y="50" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588908112214" />
     <state x="538" y="50" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768@80.0.1280.768" timestamp="1588647500447" />
     <state x="-716" y="316" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584834490386">
@@ -234,41 +239,45 @@
     <state x="461" y="118" key="FileChooserDialogImpl/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1582587290002" />
     <state x="461" y="118" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1583135589669" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581131790415" />
-    <state width="949" height="199" key="GridCell.Tab.0.bottom" timestamp="1588953467222">
+    <state width="924" height="199" key="GridCell.Tab.0.bottom" timestamp="1589107185795">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.bottom/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.bottom/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460637" />
     <state width="1316" height="117" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="1322" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581371563946" />
-    <state width="949" height="199" key="GridCell.Tab.0.bottom/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588953467222" />
+    <state width="652" height="199" key="GridCell.Tab.0.bottom/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589105699813" />
+    <state width="924" height="199" key="GridCell.Tab.0.bottom/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589107185795" />
     <state width="966" height="363" key="GridCell.Tab.0.bottom/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
-    <state width="949" height="199" key="GridCell.Tab.0.center" timestamp="1588953467221">
+    <state width="924" height="199" key="GridCell.Tab.0.center" timestamp="1589107185795">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.center/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.center/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460637" />
     <state width="1316" height="117" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="1322" height="200" key="GridCell.Tab.0.center/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581371563946" />
-    <state width="949" height="199" key="GridCell.Tab.0.center/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588953467221" />
+    <state width="652" height="199" key="GridCell.Tab.0.center/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589105699813" />
+    <state width="924" height="199" key="GridCell.Tab.0.center/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589107185795" />
     <state width="966" height="363" key="GridCell.Tab.0.center/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
-    <state width="949" height="199" key="GridCell.Tab.0.left" timestamp="1588953467221">
+    <state width="924" height="199" key="GridCell.Tab.0.left" timestamp="1589107185795">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.left/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.left/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460636" />
     <state width="1316" height="117" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="1322" height="200" key="GridCell.Tab.0.left/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581371563946" />
-    <state width="949" height="199" key="GridCell.Tab.0.left/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588953467221" />
+    <state width="652" height="199" key="GridCell.Tab.0.left/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589105699813" />
+    <state width="924" height="199" key="GridCell.Tab.0.left/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589107185795" />
     <state width="966" height="363" key="GridCell.Tab.0.left/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
-    <state width="949" height="199" key="GridCell.Tab.0.right" timestamp="1588953467222">
+    <state width="924" height="199" key="GridCell.Tab.0.right" timestamp="1589107185795">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.right/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.right/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460637" />
     <state width="1316" height="117" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="1322" height="200" key="GridCell.Tab.0.right/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581371563946" />
-    <state width="949" height="199" key="GridCell.Tab.0.right/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588953467222" />
+    <state width="652" height="199" key="GridCell.Tab.0.right/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589105699813" />
+    <state width="924" height="199" key="GridCell.Tab.0.right/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589107185795" />
     <state width="966" height="363" key="GridCell.Tab.0.right/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
     <state width="980" height="222" key="GridCell.Tab.1.bottom" timestamp="1587878502219">
       <screen x="-1024" y="36" width="1024" height="768" />
@@ -302,14 +311,14 @@
     <state x="238" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1583141420543" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581132027871" />
     <state x="113" y="0" key="SettingsEditor/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588958290072" />
-    <state x="434" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1588981076185">
+    <state x="434" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1589100637434">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state x="-741" y="232" key="com.intellij.ide.util.TipDialog/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588440049938" />
     <state x="220" y="95" key="com.intellij.ide.util.TipDialog/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1588217378691" />
     <state x="220" y="95" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1588278578253" />
     <state x="221" y="95" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581360980669" />
-    <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588956414462" />
+    <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589100637434" />
     <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768@80.0.1280.768" timestamp="1588981076185" />
     <state x="-932" y="128" width="840" height="584" key="dock-window-1" timestamp="1587876880752">
       <screen x="-1024" y="36" width="1024" height="768" />
