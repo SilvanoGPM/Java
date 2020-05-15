@@ -2,12 +2,172 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad5c0ab-4c9d-4dd9-af30-db28ef8d03f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/classes/Entregador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/classes/ListaMembros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/test/DeadlockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/test/EntregadorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/classes/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/classes/Entregador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/classes/ListaMembros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/test/CallableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/test/ConconrrenciaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/test/ConcorrenciaColecoesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/test/CopyOnWriteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/test/EntregadorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/test/ExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/test/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/test/MapReadWriteLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/test/ScheduledThreadPoolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Texpressoesregulares/TokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/Texpressoesregulares/TokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aluno.ser" beforeDir="false" afterPath="$PROJECT_DIR$/aluno.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Aintroducaoclasses/classes/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/classes/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Aintroducaoclasses/classes/Estudantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/classes/Estudantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Aintroducaoclasses/classes/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/classes/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Aintroducaoclasses/test/CarroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/test/CarroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Aintroducaoclasses/test/EstudanteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/test/EstudanteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Aintroducaoclasses/test/ProfessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/test/ProfessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Bintroducaometodos/classes/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/classes/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Bintroducaometodos/classes/Estudantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/classes/Estudantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Bintroducaometodos/classes/Metodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/classes/Metodos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Bintroducaometodos/classes/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/classes/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Bintroducaometodos/test/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/test/CalculadoraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Bintroducaometodos/test/EstudantesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/test/EstudantesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Bintroducaometodos/test/MetodosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/test/MetodosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Bintroducaometodos/test/ProfessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/test/ProfessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Csobrecargametodos/classes/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l3sobrecargametodos/classes/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Csobrecargametodos/test/FuncionarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l3sobrecargametodos/test/FuncionarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Dsobrecargaconstrutores/classes/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l4sobrecargaconstrutores/classes/Estudante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Dsobrecargaconstrutores/test/EstudanteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l4sobrecargaconstrutores/test/EstudanteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Eblocodeinicializacao/classes/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l5blocodeinicializacao/classes/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Eblocodeinicializacao/classes/ClienteDois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l5blocodeinicializacao/classes/ClienteDois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Eblocodeinicializacao/test/ClienteDoisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l5blocodeinicializacao/test/ClienteDoisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Eblocodeinicializacao/test/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l5blocodeinicializacao/test/ClienteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Fmodificadorestatico/classes/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l6modificadorestatico/classes/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Fmodificadorestatico/classes/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l6modificadorestatico/classes/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Fmodificadorestatico/test/CarroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l6modificadorestatico/test/CarroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Fmodificadorestatico/test/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l6modificadorestatico/test/ClienteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Gassosiacaoclasses/classes/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l7assosiacaoclasses/classes/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Gassosiacaoclasses/classes/Local.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l7assosiacaoclasses/classes/Local.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Gassosiacaoclasses/classes/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l7assosiacaoclasses/classes/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Gassosiacaoclasses/classes/Seminario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l7assosiacaoclasses/classes/Seminario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Gassosiacaoclasses/test/Relatorios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l7assosiacaoclasses/test/Relatorios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Hheranca/classes/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l8heranca/classes/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Hheranca/classes/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l8heranca/classes/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Hheranca/classes/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l8heranca/classes/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Hheranca/test/HerancaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l8heranca/test/HerancaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Isobreiscrita/classes/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l9sobreiscrita/classes/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Isobreiscrita/test/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l9sobreiscrita/test/PessoaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Jmodificadorfinal/classes/Auxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l10modificadorfinal/classes/Auxiliar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Jmodificadorfinal/classes/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l10modificadorfinal/classes/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Jmodificadorfinal/classes/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l10modificadorfinal/classes/Comprador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Jmodificadorfinal/test/CarroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l10modificadorfinal/test/CarroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Kenum/classes/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l11enum/classes/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Kenum/classes/TipoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l11enum/classes/TipoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Kenum/test/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l11enum/test/ClienteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Lclassesabstratas/classes/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l12classesabstratas/classes/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Lclassesabstratas/classes/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l12classesabstratas/classes/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Lclassesabstratas/classes/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l12classesabstratas/classes/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Lclassesabstratas/classes/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l12classesabstratas/classes/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Lclassesabstratas/test/FuncionarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l12classesabstratas/test/FuncionarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Minterfaces/classes/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l13interfaces/classes/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Minterfaces/classes/Transportavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l13interfaces/classes/Transportavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Minterfaces/classes/Tributavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l13interfaces/classes/Tributavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Minterfaces/test/ProtudoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l13interfaces/test/ProtudoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Npolimorfismo/classes/ArquivoDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l14polimorfismo/classes/ArquivoDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Npolimorfismo/classes/DatabaseDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l14polimorfismo/classes/DatabaseDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Npolimorfismo/classes/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l14polimorfismo/classes/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Npolimorfismo/classes/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l14polimorfismo/classes/GenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Npolimorfismo/classes/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l14polimorfismo/classes/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Npolimorfismo/classes/RelatorioPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l14polimorfismo/classes/RelatorioPagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Npolimorfismo/classes/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l14polimorfismo/classes/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Npolimorfismo/test/DaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l14polimorfismo/test/DaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Npolimorfismo/test/PolimorfismoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l14polimorfismo/test/PolimorfismoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/checkedexception/classes/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/checkedexception/classes/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/checkedexception/classes/Leitor01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/checkedexception/classes/Leitor01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/checkedexception/classes/Leitor02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/checkedexception/classes/Leitor02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/checkedexception/classes/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/checkedexception/classes/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/checkedexception/test/CheckedExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/checkedexception/test/CheckedExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/checkedexception/test/CustomExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/checkedexception/test/CustomExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/checkedexception/test/SobrescritaComException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/checkedexception/test/SobrescritaComException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/checkedexception/test/TryWithResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/checkedexception/test/TryWithResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/customexception/LoginInvalidoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/customexception/LoginInvalidoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/error/test/ErrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/error/test/ErrorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/runtimeexception/test/MultiplasRuntimeExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/runtimeexception/test/MultiplasRuntimeExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Oexception/runtimeexception/test/RuntimeExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l15exception/runtimeexception/test/RuntimeExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Passertions/test/AssertionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l16assertions/AssertionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Qwrappers/test/WrappersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l17wrappers/test/WrappersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Rstrings/test/StringBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l18strings/test/StringBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Rstrings/test/StringPerformaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l18strings/test/StringPerformaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Rstrings/test/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l18strings/test/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Sdatas/test/DateFormatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l19datas/test/DateFormatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Sdatas/test/LocaleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l19datas/test/LocaleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Sdatas/test/ManipulacaoDeDadosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l19datas/test/ManipulacaoDeDadosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Sdatas/test/NumberFormatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l19datas/test/NumberFormatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Sdatas/test/SimpleDateFormatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l19datas/test/SimpleDateFormatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Texpressoesregulares/ExpressoesRegulares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l20expressoesregulares/ExpressoesRegulares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Texpressoesregulares/ScannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l20expressoesregulares/ScannerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Texpressoesregulares/TokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l20expressoesregulares/TokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Uresourcebundle/test/ResourceBundleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l21resourcebundle/test/ResourceBundleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Vio/BufferedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l22io/BufferedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Vio/FileDiretorioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l22io/FileDiretorioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Vio/FileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l22io/FileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Vio/FileWriterReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l22io/FileWriterReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Vio/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l22io/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Wnio/test/AtributosBasicosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l23nio/test/AtributosBasicosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Wnio/test/DirectoryStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l23nio/test/DirectoryStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Wnio/test/DosFileAttributesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l23nio/test/DosFileAttributesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Wnio/test/FileVisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l23nio/test/FileVisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Wnio/test/NormalizacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l23nio/test/NormalizacaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Wnio/test/PathMatcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l23nio/test/PathMatcherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Wnio/test/PathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l23nio/test/PathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Wnio/test/RelativarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l23nio/test/RelativarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Wnio/test/ResolvendoPathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l23nio/test/ResolvendoPathsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Wnio/test/ZipandoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l23nio/test/ZipandoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Xserializacao/classes/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l24serializacao/classes/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Xserializacao/classes/Turma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l24serializacao/classes/Turma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Xserializacao/test/SerializacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l24serializacao/test/SerializacaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/classes/Celular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/classes/Celular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/classes/Consumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/classes/Consumidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/classes/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/classes/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/BinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/ConsumidorMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/ConsumidorMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/ConversaoDeListasArraysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/ConversaoDeListasArraysTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/EqualsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/EqualsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/IteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/SetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/SortListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/SortListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/SortProdutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/SortProdutoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/TreeMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/TreeMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Ycolecoes/test/TreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l25colecoes/test/TreeSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZAclassesinternas/test/ClassesAnonimasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l27classesinternas/test/ClassesAnonimasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZAclassesinternas/test/ClassesInternasEstaticasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l27classesinternas/test/ClassesInternasEstaticasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZAclassesinternas/test/ClassesInternasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l27classesinternas/test/ClassesInternasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZAclassesinternas/test/ClassesLocaisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l27classesinternas/test/ClassesLocaisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZBjdbc/classes/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l28jdbc/classes/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZBjdbc/classes/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l28jdbc/classes/Comprador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZBjdbc/classes/MyRowSetListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l28jdbc/classes/MyRowSetListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZBjdbc/coon/ConexaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l28jdbc/coon/ConexaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZBjdbc/db/CarroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l28jdbc/db/CarroDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZBjdbc/db/CompradorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l28jdbc/db/CompradorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZBjdbc/db/CompradorDBOLD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l28jdbc/db/CompradorDBOLD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZBjdbc/test/CarroCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l28jdbc/test/CarroCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZBjdbc/test/CompradorCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l28jdbc/test/CompradorCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZBjdbc/test/TesteCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l28jdbc/test/TesteCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZBjdbc/test/TesteConexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l28jdbc/test/TesteConexao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/classes/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l29threads/classes/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/classes/Entregador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l29threads/classes/Entregador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/classes/ListaMembros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l29threads/classes/ListaMembros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/test/ContaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l29threads/test/ContaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/test/DeadlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l29threads/test/DeadlockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/test/EntregadorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l29threads/test/EntregadorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/test/ThreadSafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l29threads/test/ThreadSafeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/ZZCthreads/test/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l29threads/test/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Zgenerics/classes/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l26generics/classes/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Zgenerics/classes/Computador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l26generics/classes/Computador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Zgenerics/test/ClasseGenericaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l26generics/test/ClasseGenericaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Zgenerics/test/ClasseNaoGenericaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l26generics/test/ClasseNaoGenericaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Zgenerics/test/GenericsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l26generics/test/GenericsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Zgenerics/test/MetodoGenericoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l26generics/test/MetodoGenericoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/Zgenerics/test/WildCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l26generics/test/WildCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +216,11 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/test" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -69,19 +229,23 @@
       <recent name="foradocurso" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.sky.javacore.l30concorrencia.test" />
       <recent name="br.com.abc.javacore.Fmodificadorestatico.test" />
       <recent name="br.com.abc.javacore.Fmodificadorestatico.classes" />
       <recent name="br.com.abc.javacore.introducaometodos.classes" />
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\campeão\IdeaProjects\Java\src\br\com\sky\javacore\l30concorrencia\test" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.EntregadorTest">
-    <configuration name="DeadlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.ZZCthreads.test.DeadlockTest" />
+  <component name="RunManager" selected="Application.CallableTest">
+    <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l30concorrencia.test.CallableTest" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.sky.javacore.ZZCthreads.test.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.l30concorrencia.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntregadorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.ZZCthreads.test.EntregadorTest" />
+    <configuration name="ConcorrenciaColecoesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l30concorrencia.test.ConcorrenciaColecoesTest" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.sky.javacore.ZZCthreads.test.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.l30concorrencia.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.Texpressoesregulares.ScannerTest" />
+    <configuration name="CopyOnWriteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l30concorrencia.test.CopyOnWriteTest" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.sky.javacore.Texpressoesregulares.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.l30concorrencia.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPerformaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.Rstrings.test.StringPerformaceTest" />
+    <configuration name="ExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l30concorrencia.test.ExecutorTest" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.sky.javacore.Rstrings.test.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.l30concorrencia.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TokenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.Texpressoesregulares.TokenTest" />
+    <configuration name="ScheduledThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l30concorrencia.test.ScheduledThreadPoolTest" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.sky.javacore.Texpressoesregulares.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.l30concorrencia.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +306,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringPerformaceTest" />
-      <item itemvalue="Application.ScannerTest" />
-      <item itemvalue="Application.TokenTest" />
-      <item itemvalue="Application.DeadlockTest" />
-      <item itemvalue="Application.EntregadorTest" />
+      <item itemvalue="Application.CallableTest" />
+      <item itemvalue="Application.ConcorrenciaColecoesTest" />
+      <item itemvalue="Application.CopyOnWriteTest" />
+      <item itemvalue="Application.ExecutorTest" />
+      <item itemvalue="Application.ScheduledThreadPoolTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EntregadorTest" />
-        <item itemvalue="Application.DeadlockTest" />
-        <item itemvalue="Application.TokenTest" />
-        <item itemvalue="Application.ScannerTest" />
-        <item itemvalue="Application.StringPerformaceTest" />
+        <item itemvalue="Application.CallableTest" />
+        <item itemvalue="Application.ScheduledThreadPoolTest" />
+        <item itemvalue="Application.ExecutorTest" />
+        <item itemvalue="Application.ConcorrenciaColecoesTest" />
+        <item itemvalue="Application.CopyOnWriteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -219,14 +383,14 @@
     </state>
     <state x="435" y="232" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1581449604573" />
     <state x="437" y="232" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581131730770" />
-    <state x="-658" y="86" width="461" height="330" key="#com.intellij.ide.util.MemberChooser" timestamp="1589104978618">
-      <screen x="-1024" y="36" width="1024" height="768" />
+    <state x="538" y="50" width="461" height="330" key="#com.intellij.ide.util.MemberChooser" timestamp="1589419990949">
+      <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state x="-658" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588280009969" />
     <state x="486" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1584144699165" />
     <state x="486" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1583138412496" />
-    <state x="-658" y="86" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589104978618" />
-    <state x="538" y="50" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588908112214" />
+    <state x="-658" y="86" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589417925157" />
+    <state x="538" y="50" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589419990949" />
     <state x="538" y="50" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768@80.0.1280.768" timestamp="1588647500447" />
     <state x="-716" y="316" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584834490386">
       <screen x="-1024" y="36" width="1024" height="768" />
@@ -239,45 +403,45 @@
     <state x="461" y="118" key="FileChooserDialogImpl/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1582587290002" />
     <state x="461" y="118" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1583135589669" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581131790415" />
-    <state width="924" height="199" key="GridCell.Tab.0.bottom" timestamp="1589107185795">
+    <state width="971" height="199" key="GridCell.Tab.0.bottom" timestamp="1589420405967">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.bottom/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.bottom/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460637" />
     <state width="1316" height="117" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="1322" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581371563946" />
-    <state width="652" height="199" key="GridCell.Tab.0.bottom/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589105699813" />
-    <state width="924" height="199" key="GridCell.Tab.0.bottom/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589107185795" />
+    <state width="715" height="199" key="GridCell.Tab.0.bottom/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589419509937" />
+    <state width="971" height="199" key="GridCell.Tab.0.bottom/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589420405967" />
     <state width="966" height="363" key="GridCell.Tab.0.bottom/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
-    <state width="924" height="199" key="GridCell.Tab.0.center" timestamp="1589107185795">
+    <state width="971" height="199" key="GridCell.Tab.0.center" timestamp="1589420405967">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.center/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.center/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460637" />
     <state width="1316" height="117" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="1322" height="200" key="GridCell.Tab.0.center/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581371563946" />
-    <state width="652" height="199" key="GridCell.Tab.0.center/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589105699813" />
-    <state width="924" height="199" key="GridCell.Tab.0.center/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589107185795" />
+    <state width="715" height="199" key="GridCell.Tab.0.center/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589419509937" />
+    <state width="971" height="199" key="GridCell.Tab.0.center/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589420405967" />
     <state width="966" height="363" key="GridCell.Tab.0.center/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
-    <state width="924" height="199" key="GridCell.Tab.0.left" timestamp="1589107185795">
+    <state width="971" height="199" key="GridCell.Tab.0.left" timestamp="1589420405967">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.left/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.left/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460636" />
     <state width="1316" height="117" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="1322" height="200" key="GridCell.Tab.0.left/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581371563946" />
-    <state width="652" height="199" key="GridCell.Tab.0.left/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589105699813" />
-    <state width="924" height="199" key="GridCell.Tab.0.left/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589107185795" />
+    <state width="715" height="199" key="GridCell.Tab.0.left/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589419509937" />
+    <state width="971" height="199" key="GridCell.Tab.0.left/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589420405967" />
     <state width="966" height="363" key="GridCell.Tab.0.left/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
-    <state width="924" height="199" key="GridCell.Tab.0.right" timestamp="1589107185795">
+    <state width="971" height="199" key="GridCell.Tab.0.right" timestamp="1589420405967">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.right/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.right/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460637" />
     <state width="1316" height="117" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="1322" height="200" key="GridCell.Tab.0.right/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581371563946" />
-    <state width="652" height="199" key="GridCell.Tab.0.right/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589105699813" />
-    <state width="924" height="199" key="GridCell.Tab.0.right/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589107185795" />
+    <state width="715" height="199" key="GridCell.Tab.0.right/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589419509937" />
+    <state width="971" height="199" key="GridCell.Tab.0.right/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589420405967" />
     <state width="966" height="363" key="GridCell.Tab.0.right/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
     <state width="980" height="222" key="GridCell.Tab.1.bottom" timestamp="1587878502219">
       <screen x="-1024" y="36" width="1024" height="768" />
@@ -303,22 +467,23 @@
       <screen x="-1024" y="36" width="1024" height="768" />
     </state>
     <state x="-840" y="148" key="IDE.errors.dialog/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1584837281607" />
-    <state x="113" y="0" key="SettingsEditor" timestamp="1588958290072">
-      <screen x="80" y="0" width="1280" height="768" />
+    <state x="-1024" y="36" key="SettingsEditor" timestamp="1589416027281">
+      <screen x="-1024" y="36" width="1024" height="768" />
     </state>
     <state x="-998" y="36" key="SettingsEditor/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1586960729692" />
     <state x="272" y="0" key="SettingsEditor/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1585022289603" />
     <state x="238" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1583141420543" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581132027871" />
+    <state x="-1024" y="36" key="SettingsEditor/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589416027281" />
     <state x="113" y="0" key="SettingsEditor/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588958290072" />
-    <state x="434" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1589100637434">
+    <state x="434" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1589474143125">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state x="-741" y="232" key="com.intellij.ide.util.TipDialog/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588440049938" />
     <state x="220" y="95" key="com.intellij.ide.util.TipDialog/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1588217378691" />
     <state x="220" y="95" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1588278578253" />
     <state x="221" y="95" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581360980669" />
-    <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589100637434" />
+    <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1589474143125" />
     <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768@80.0.1280.768" timestamp="1588981076185" />
     <state x="-932" y="128" width="840" height="584" key="dock-window-1" timestamp="1587876880752">
       <screen x="-1024" y="36" width="1024" height="768" />
@@ -336,13 +501,14 @@
       <screen x="-1024" y="36" width="1024" height="768" />
     </state>
     <state x="-770" y="202" key="run.anything.popup/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1586962346991" />
-    <state x="404" y="52" width="840" height="716" key="search.everywhere.popup" timestamp="1588640634652">
-      <screen x="80" y="0" width="1280" height="768" />
+    <state x="-765" y="88" width="672" height="716" key="search.everywhere.popup" timestamp="1589123293239">
+      <screen x="-1024" y="36" width="1024" height="768" />
     </state>
     <state x="-765" y="88" width="672" height="716" key="search.everywhere.popup/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1587873540304" />
     <state x="344" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1584142720398" />
     <state x="344" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1583135404973" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1024.36.1024.768@0.0.1366.728" timestamp="1581366975949" />
+    <state x="-765" y="88" width="672" height="716" key="search.everywhere.popup/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589123293239" />
     <state x="404" y="52" width="840" height="716" key="search.everywhere.popup/80.0.1280.768@80.0.1280.768" timestamp="1588640634652" />
     <state x="402" y="281" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1581453689922">
       <screen x="0" y="0" width="1360" height="728" />
