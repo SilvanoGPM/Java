@@ -2,7 +2,8 @@ package br.com.sky.javacore.l28jdbc.test;
 
 import br.com.sky.javacore.l28jdbc.classes.Carro;
 import br.com.sky.javacore.l28jdbc.classes.Comprador;
-import br.com.sky.javacore.l28jdbc.db.CarroDAO;
+import br.com.sky.javacore.l28jdbc.db.CarroDAOImpl;
+import br.com.sky.javacore.l28jdbc.interfaces.CarroDAO;
 
 import java.util.List;
 import java.util.Scanner;
@@ -10,6 +11,7 @@ import java.util.Scanner;
 public class CarroCRUD {
 
     private static Scanner teclado = new Scanner(System.in);
+    private static CarroDAO dao = new CarroDAOImpl();
 
     public static void executar(int op) {
         switch (op) {
@@ -36,7 +38,7 @@ public class CarroCRUD {
 
     private static void inserir() {
         Carro c = new Carro();
-        System.out.print("Nome: ");
+        System.out.print("No me: ");
         c.setNome(teclado.nextLine());
         System.out.print("Placa: ");
         c.setPlaca(teclado.nextLine());
@@ -45,7 +47,7 @@ public class CarroCRUD {
         c.setComprador(compradorList.get(Integer.parseInt(teclado.nextLine())));
 
         System.out.println();
-        CarroDAO.save(c);
+        dao.save(c);
     }
 
     private static void atualizar() {
@@ -66,14 +68,14 @@ public class CarroCRUD {
         if (!placa.isEmpty()) {
             c.setPlaca(placa);
         }
-        CarroDAO.update(c);
+        dao.update(c);
 
 
     }
 
     private static List<Carro> listar() {
 
-        List<Carro> carroList = CarroDAO.selectAll();
+        List<Carro> carroList = dao.selectAll();
 
         for (int i = 0; i < carroList.size(); i++) {
             Carro c = carroList.get(i);
@@ -85,7 +87,7 @@ public class CarroCRUD {
 
     private static void buscarPorNome(String nome) {
 
-        List<Carro> carroList = CarroDAO.searchByName(nome);
+        List<Carro> carroList = dao.searchByName(nome);
 
         for (int i = 0; i < carroList.size(); i++) {
             Carro c = carroList.get(i);
@@ -104,7 +106,7 @@ public class CarroCRUD {
         String op = teclado.nextLine().toUpperCase();
 
         if (op.startsWith("S")) {
-            CarroDAO.delete(carroList.get(index));
+            dao.delete(carroList.get(index));
         }
 
     }

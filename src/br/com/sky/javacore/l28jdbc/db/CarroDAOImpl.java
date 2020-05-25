@@ -3,6 +3,7 @@ package br.com.sky.javacore.l28jdbc.db;
 import br.com.sky.javacore.l28jdbc.classes.Carro;
 import br.com.sky.javacore.l28jdbc.classes.Comprador;
 import br.com.sky.javacore.l28jdbc.coon.ConexaoFactory;
+import br.com.sky.javacore.l28jdbc.interfaces.CarroDAO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,9 +12,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CarroDAO {
+public class CarroDAOImpl implements CarroDAO {
 
-    public static void save(Carro carro) {
+    @Override
+    public void save(Carro carro) {
 
         String sql = "INSERT INTO agencia.carro (nome, placa, compradorid) VALUES (?, ?, ?);";
 
@@ -34,7 +36,8 @@ public class CarroDAO {
 
     }
 
-    public static void delete(Carro carro) {
+    @Override
+    public void delete(Carro carro) {
 
         if (carro == null || carro.getId() == null) {
             System.out.println("Não foi possivel deletar o carro!");
@@ -57,7 +60,8 @@ public class CarroDAO {
 
     }
 
-    public static void update(Carro carro) {
+    @Override
+    public void update(Carro carro) {
 
         if (carro == null || carro.getId() == null) {
             System.out.println("Não foi possível atualizar o carro!");
@@ -83,7 +87,8 @@ public class CarroDAO {
 
     }
 
-    public static List<Carro> selectAll() {
+    @Override
+    public List<Carro> selectAll() {
 
         List<Carro> carros = new ArrayList<>();
         String sql = "SELECT id, nome, placa, compradorid FROM agencia.carro";
@@ -106,7 +111,8 @@ public class CarroDAO {
         return null;
     }
 
-    public static List<Carro> searchByName(String nome) {
+    @Override
+    public List<Carro> searchByName(String nome) {
 
         List<Carro> carros = new ArrayList<>();
         String sql = "SELECT id, nome, placa, compradorid FROM agencia.carro WHERE nome LIKE (?)";
