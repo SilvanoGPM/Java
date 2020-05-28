@@ -3,6 +3,8 @@ package br.com.sky.javacore.l33lambdas.test;
 import br.com.sky.javacore.l33lambdas.classes.Carro;
 import br.com.sky.javacore.l33lambdas.interfaces.CarroPredicate;
 
+import java.util.function.Predicate;
+
 public class LambdaTest {
     // anonima
     // função
@@ -20,7 +22,7 @@ public class LambdaTest {
             }
         };
 
-        CarroPredicate carroPredicate2 = (Carro carro) -> carro.getCor().equals("Verde");
+        Predicate<Carro> carroPredicate2 = (Carro carro) -> carro.getCor().equals("Verde");
 
         System.out.println(carroPredicate2.test(new Carro("Verde", 2004)));
 
