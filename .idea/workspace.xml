@@ -2,35 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad5c0ab-4c9d-4dd9-af30-db28ef8d03f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l33lambdas/classes/ComparadorCarro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l33lambdas/test/LambdaTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l33lambdas/test/LambdaTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l34default/classes/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l34default/classes/InterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l34default/interfaces/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l34default/interfaces/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l34default/interfaces/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l35optional/classes/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l35optional/classes/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l35optional/classes/Seguradora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l35optional/classes2/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l35optional/classes2/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l35optional/classes2/Seguradora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l35optional/test/OptionalTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l35optional/test/OptionalTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l36streams/classes/Genero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l36streams/classes/Maioridade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l36streams/classes/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l36streams/test/StreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l36streams/test/StreamTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l36streams/test/StreamTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l36streams/test/StreamTest4Reduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l36streams/test/StreamTest6Collectors1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l36streams/test/StreamTest6Collectors2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l36streams/test/StremTest5GerandoStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l37streamsparalelos/StreamsPararelos1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/classes/Desconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/classes/Loja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/classes/NovaLoja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/classes/Orcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/test/FutureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/test/LojaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/test/LojaTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/test/NovaLojaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/util/ObeterProximoDiaUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teste.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Teste.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l33lambdas/test/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l33lambdas/test/LambdaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +34,8 @@
         <option value="JavaFXApplication" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,23 +80,23 @@
       <recent name="foradocurso" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.sky.javacore.l38completablefuture.classes" />
       <recent name="br.com.sky.javacore.l32lambdas.classes" />
       <recent name="br.com.sky.javacore.l32lambdas.test.interfaces" />
       <recent name="br.com.sky.javacore.l30concorrencia.test" />
       <recent name="br.com.abc.javacore.Fmodificadorestatico.test" />
-      <recent name="br.com.abc.javacore.Fmodificadorestatico.classes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\campeão\IdeaProjects\Java\src\br\com\sky\javacore\l30concorrencia\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamTest6Collectors2">
-    <configuration name="StreamTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l36streams.test.StreamTest3" />
+  <component name="RunManager" selected="Application.DateTimeAPITest6">
+    <configuration name="DateTimeAPITest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l39datetime.test.DateTimeAPITest2" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.sky.javacore.l36streams.test.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.l39datetime.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest4Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l36streams.test.StreamTest4Reduce" />
+    <configuration name="DateTimeAPITest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l39datetime.test.DateTimeAPITest3" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.sky.javacore.l36streams.test.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.l39datetime.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest6Collectors1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l36streams.test.StreamTest6Collectors1" />
+    <configuration name="DateTimeAPITest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l39datetime.test.DateTimeAPITest4" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.sky.javacore.l36streams.test.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.l39datetime.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest6Collectors2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l36streams.test.StreamTest6Collectors2" />
+    <configuration name="DateTimeAPITest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l39datetime.test.DateTimeAPITest5" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.sky.javacore.l36streams.test.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.l39datetime.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StremTest5GerandoStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l36streams.test.StremTest5GerandoStreams" />
+    <configuration name="DateTimeAPITest6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l39datetime.test.DateTimeAPITest6" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.sky.javacore.l36streams.test.*" />
+          <option name="PATTERN" value="br.com.sky.javacore.l39datetime.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamTest3" />
-      <item itemvalue="Application.StreamTest4Reduce" />
-      <item itemvalue="Application.StremTest5GerandoStreams" />
-      <item itemvalue="Application.StreamTest6Collectors1" />
-      <item itemvalue="Application.StreamTest6Collectors2" />
+      <item itemvalue="Application.DateTimeAPITest2" />
+      <item itemvalue="Application.DateTimeAPITest3" />
+      <item itemvalue="Application.DateTimeAPITest4" />
+      <item itemvalue="Application.DateTimeAPITest5" />
+      <item itemvalue="Application.DateTimeAPITest6" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamTest6Collectors2" />
-        <item itemvalue="Application.StreamTest6Collectors1" />
-        <item itemvalue="Application.StremTest5GerandoStreams" />
-        <item itemvalue="Application.StreamTest4Reduce" />
-        <item itemvalue="Application.StreamTest3" />
+        <item itemvalue="Application.DateTimeAPITest6" />
+        <item itemvalue="Application.DateTimeAPITest5" />
+        <item itemvalue="Application.DateTimeAPITest4" />
+        <item itemvalue="Application.DateTimeAPITest3" />
+        <item itemvalue="Application.DateTimeAPITest2" />
       </list>
     </recent_temporary>
   </component>
@@ -238,14 +226,14 @@
     </state>
     <state x="-727" y="211" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1582570668165" />
     <state x="394" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1583141557516" />
-    <state x="538" y="0" width="461" height="768" key="#com.intellij.ide.util.MemberChooser" timestamp="1590603639727">
+    <state x="538" y="0" width="461" height="768" key="#com.intellij.ide.util.MemberChooser" timestamp="1590765313940">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state x="-658" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588280009969" />
     <state x="486" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1584144699165" />
     <state x="486" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1583138412496" />
     <state x="-658" y="86" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589417925157" />
-    <state x="538" y="0" width="461" height="768" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590603639727" />
+    <state x="538" y="0" width="461" height="768" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590765313940" />
     <state x="538" y="50" key="#com.intellij.ide.util.MemberChooser/80.0.1280.768@80.0.1280.768" timestamp="1588647500447" />
     <state x="-716" y="316" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584834490386">
       <screen x="-1024" y="36" width="1024" height="768" />
@@ -255,6 +243,10 @@
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state x="439" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590491720921" />
+    <state x="172" y="92" width="1096" height="584" key="DiffContextDialog" timestamp="1590674617594">
+      <screen x="80" y="0" width="1280" height="768" />
+    </state>
+    <state x="172" y="92" width="1096" height="584" key="DiffContextDialog/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590674617594" />
     <state x="514" y="124" key="FileChooserDialogImpl" timestamp="1590391590424">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
@@ -262,41 +254,41 @@
     <state x="461" y="118" key="FileChooserDialogImpl/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1582587290002" />
     <state x="461" y="118" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1583135589669" />
     <state x="514" y="124" key="FileChooserDialogImpl/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590391590424" />
-    <state width="1236" height="242" key="GridCell.Tab.0.bottom" timestamp="1590623116637">
+    <state width="925" height="242" key="GridCell.Tab.0.bottom" timestamp="1590772760974">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.bottom/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.bottom/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460637" />
     <state width="1316" height="117" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="715" height="199" key="GridCell.Tab.0.bottom/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589419509937" />
-    <state width="1236" height="242" key="GridCell.Tab.0.bottom/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590623116637" />
+    <state width="925" height="242" key="GridCell.Tab.0.bottom/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590772760974" />
     <state width="966" height="363" key="GridCell.Tab.0.bottom/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
-    <state width="1236" height="242" key="GridCell.Tab.0.center" timestamp="1590623116637">
+    <state width="925" height="242" key="GridCell.Tab.0.center" timestamp="1590772760974">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.center/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.center/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460637" />
     <state width="1316" height="117" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="715" height="199" key="GridCell.Tab.0.center/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589419509937" />
-    <state width="1236" height="242" key="GridCell.Tab.0.center/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590623116637" />
+    <state width="925" height="242" key="GridCell.Tab.0.center/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590772760974" />
     <state width="966" height="363" key="GridCell.Tab.0.center/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
-    <state width="1236" height="242" key="GridCell.Tab.0.left" timestamp="1590623116636">
+    <state width="925" height="242" key="GridCell.Tab.0.left" timestamp="1590772760974">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.left/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.left/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460636" />
     <state width="1316" height="117" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="715" height="199" key="GridCell.Tab.0.left/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589419509937" />
-    <state width="1236" height="242" key="GridCell.Tab.0.left/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590623116636" />
+    <state width="925" height="242" key="GridCell.Tab.0.left/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590772760974" />
     <state width="966" height="363" key="GridCell.Tab.0.left/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
-    <state width="1236" height="242" key="GridCell.Tab.0.right" timestamp="1590623116637">
+    <state width="925" height="242" key="GridCell.Tab.0.right" timestamp="1590772760974">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state width="667" height="424" key="GridCell.Tab.0.right/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588441418907" />
     <state width="1316" height="264" key="GridCell.Tab.0.right/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1587925460637" />
     <state width="1316" height="117" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1587075602125" />
     <state width="715" height="199" key="GridCell.Tab.0.right/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589419509937" />
-    <state width="1236" height="242" key="GridCell.Tab.0.right/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590623116637" />
+    <state width="925" height="242" key="GridCell.Tab.0.right/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590772760974" />
     <state width="966" height="363" key="GridCell.Tab.0.right/80.0.1280.768@80.0.1280.768" timestamp="1588649090189" />
     <state width="618" height="230" key="GridCell.Tab.1.bottom" timestamp="1590593544956">
       <screen x="80" y="0" width="1280" height="768" />
@@ -334,13 +326,13 @@
     <state x="238" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1583141420543" />
     <state x="-1024" y="36" key="SettingsEditor/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589416027281" />
     <state x="113" y="0" key="SettingsEditor/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1588958290072" />
-    <state x="434" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590572096522">
+    <state x="434" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590763913703">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state x="-741" y="232" key="com.intellij.ide.util.TipDialog/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1588440049938" />
     <state x="220" y="95" key="com.intellij.ide.util.TipDialog/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1588217378691" />
     <state x="220" y="95" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1588278578253" />
-    <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590572096522" />
+    <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590763913703" />
     <state x="434" y="196" key="com.intellij.ide.util.TipDialog/80.0.1280.768@80.0.1280.768" timestamp="1588981076185" />
     <state x="-932" y="128" width="840" height="584" key="dock-window-1" timestamp="1587876880752">
       <screen x="-1024" y="36" width="1024" height="768" />
@@ -355,14 +347,14 @@
       <screen x="-1024" y="36" width="1024" height="768" />
     </state>
     <state x="-770" y="202" key="run.anything.popup/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1586962346991" />
-    <state x="404" y="52" width="840" height="716" key="search.everywhere.popup" timestamp="1590605034769">
+    <state x="404" y="52" width="840" height="716" key="search.everywhere.popup" timestamp="1590764710510">
       <screen x="80" y="0" width="1280" height="768" />
     </state>
     <state x="-765" y="88" width="672" height="716" key="search.everywhere.popup/0.0.1360.728/-1024.36.1024.768@-1024.36.1024.768" timestamp="1587873540304" />
     <state x="344" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728/-1024.36.1024.768@0.0.1360.728" timestamp="1584142720398" />
     <state x="344" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1583135404973" />
     <state x="-765" y="88" width="672" height="716" key="search.everywhere.popup/80.0.1280.768/-1024.36.1024.768@-1024.36.1024.768" timestamp="1589123293239" />
-    <state x="404" y="52" width="840" height="716" key="search.everywhere.popup/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590605034769" />
+    <state x="404" y="52" width="840" height="716" key="search.everywhere.popup/80.0.1280.768/-1024.36.1024.768@80.0.1280.768" timestamp="1590764710510" />
     <state x="404" y="52" width="840" height="716" key="search.everywhere.popup/80.0.1280.768@80.0.1280.768" timestamp="1588640634652" />
   </component>
 </project>
