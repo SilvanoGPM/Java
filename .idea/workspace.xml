@@ -1,32 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8ad5c0ab-4c9d-4dd9-af30-db28ef8d03f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l37streamsparalelos/StreamsPararelos1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/classes/Desconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/classes/Loja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/classes/NovaLoja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/classes/Orcamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/test/FutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/test/LojaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/test/LojaTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l38completablefuture/test/NovaLojaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/test/DateTimeAPITest6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l39datetime/util/ObeterProximoDiaUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/classes/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l01introducaoclasses/classes/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/classes/Estudantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l01introducaoclasses/classes/Estudantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/classes/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l01introducaoclasses/classes/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/test/CarroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l01introducaoclasses/test/CarroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/test/EstudanteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l01introducaoclasses/test/EstudanteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l1introducaoclasses/test/ProfessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l01introducaoclasses/test/ProfessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/classes/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l02introducaometodos/classes/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/classes/Estudantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l02introducaometodos/classes/Estudantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/classes/Metodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l02introducaometodos/classes/Metodos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/classes/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l02introducaometodos/classes/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/test/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l02introducaometodos/test/CalculadoraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/test/EstudantesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l02introducaometodos/test/EstudantesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/test/MetodosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l02introducaometodos/test/MetodosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l2introducaometodos/test/ProfessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l02introducaometodos/test/ProfessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l3sobrecargametodos/classes/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l03sobrecargametodos/classes/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l3sobrecargametodos/test/FuncionarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l03sobrecargametodos/test/FuncionarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l4sobrecargaconstrutores/classes/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l04sobrecargaconstrutores/classes/Estudante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l4sobrecargaconstrutores/test/EstudanteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l04sobrecargaconstrutores/test/EstudanteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l5blocodeinicializacao/classes/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l05blocodeinicializacao/classes/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l5blocodeinicializacao/classes/ClienteDois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l05blocodeinicializacao/classes/ClienteDois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l5blocodeinicializacao/test/ClienteDoisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l05blocodeinicializacao/test/ClienteDoisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l5blocodeinicializacao/test/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l05blocodeinicializacao/test/ClienteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l6modificadorestatico/classes/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l06modificadorestatico/classes/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l6modificadorestatico/classes/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l06modificadorestatico/classes/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l6modificadorestatico/test/CarroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l06modificadorestatico/test/CarroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l6modificadorestatico/test/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l06modificadorestatico/test/ClienteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l7assosiacaoclasses/classes/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l07assosiacaoclasses/classes/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l7assosiacaoclasses/classes/Local.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l07assosiacaoclasses/classes/Local.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l7assosiacaoclasses/classes/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l07assosiacaoclasses/classes/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l7assosiacaoclasses/classes/Seminario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l07assosiacaoclasses/classes/Seminario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l7assosiacaoclasses/test/Relatorios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l07assosiacaoclasses/test/Relatorios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l8heranca/classes/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l08heranca/classes/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l8heranca/classes/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l08heranca/classes/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l8heranca/classes/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l08heranca/classes/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l8heranca/test/HerancaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l08heranca/test/HerancaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l9sobreiscrita/classes/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l09sobreiscrita/classes/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/sky/javacore/l9sobreiscrita/test/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/sky/javacore/l09sobreiscrita/test/PessoaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Java" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,20 +77,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GroovyConsoleState">
-    <option name="list">
-      <list>
-        <Entry>
-          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
-        </Entry>
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="1UTLI9aaxdkeVcyQdSMceh4Cnri" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
@@ -66,12 +91,13 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/br/com/sky/javacore/l30concorrencia/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -90,7 +116,7 @@
       <recent name="C:\Users\campeão\IdeaProjects\Java\src\br\com\sky\javacore\l30concorrencia\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DateTimeAPITest6">
+  <component name="RunManager" selected="Application.DateTimeAPITest2">
     <configuration name="DateTimeAPITest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.sky.javacore.l39datetime.test.DateTimeAPITest2" />
       <module name="JavaCore" />
@@ -173,19 +199,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-    <option name="showServicesTree" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -198,6 +212,17 @@
       <updated>1575375555254</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
